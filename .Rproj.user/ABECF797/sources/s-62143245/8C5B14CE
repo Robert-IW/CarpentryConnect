@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1536069147192.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "8C5B14CE",
+    "lastKnownWriteTime" : 0,
+    "last_content_update" : 1536069147192,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "B1EB378C",
+        "caption" : "new2_df",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=new2_df&cache_key=B1EB378C",
+        "displayedObservations" : "48",
+        "environment" : "",
+        "object" : "new2_df",
+        "preview" : "0",
+        "totalObservations" : "48",
+        "variables" : "5"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

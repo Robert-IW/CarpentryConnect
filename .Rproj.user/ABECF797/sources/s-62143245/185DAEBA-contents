@@ -1,0 +1,23 @@
+library(tidyverse)
+library(RSQLite)
+
+
+new_df <- surveys %>% 
+  filter(year==1995) %>% 
+  select(species_id, weight)
+
+# select only rows with weights < 5, then species_id, sex and weight
+new_df <- surveys %>% 
+  filter(!is.na(weight)) %>% 
+  #select(species_id, weight, sex) %>% 
+  mutate(weight_kg=weight/1000,
+         weight_kg2=weight_kg*2)
+
+new2_df <- surveys %>% 
+  filter(!sex=="") %>% 
+  filter(!is.na(weight)) %>% 
+  group_by(sex, species_id) %>%
+  summarise(mean_weight = mean(weight, na.rm = T),
+            min_weight = min(weight, na.rm = T),
+            max_weight = max(weight, na.rm = T)) %>% 
+  arrange(species_id)

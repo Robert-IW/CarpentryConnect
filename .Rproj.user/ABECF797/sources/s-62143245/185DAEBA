@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1536062269652.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "185DAEBA",
+    "lastKnownWriteTime" : 1536062362,
+    "last_content_update" : 1536069322686,
+    "path" : "~/Desktop/data-carpentry/data-analysis.R",
+    "project_path" : "data-analysis.R",
+    "properties" : {
+        "cursorPosition" : "12,31",
+        "scrollLine" : "6",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
